@@ -5,10 +5,16 @@ Copyright 2020 Gergely Szentgyörgyi
 Released under the Apache-2.0 license
 https://github.com/gergely1995/LeapATM/blob/master/LICENSE
 
+This project uses:
+https://github.com/leapmotion/leapjs/blob/master/leap-1.0.0.js
+(included in the data folder)
 
 To test open atmDemo.html in a browser.
 
 This project is intended for functionality experimentation so the UI is kept simple.
+The idea is to develop a way to interact with touch less interfaces without having to aiming.
+As it can be the most difficult part of using a touch less UI,
+due to the individual's varied ability to keep their hand steady.
 
 
 Actions:
