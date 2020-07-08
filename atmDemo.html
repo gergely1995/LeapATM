@@ -1,25 +1,39 @@
+<!--LeapATM-->
+<!--https://github.com/gergely1995/LeapATM/-->
+<!---->
+<!--Copyright 2020 Gergely Szentgyörgyi-->
+<!--Released under the Apache-2.0 license-->
+<!--https://github.com/gergely1995/LeapATM/blob/master/LICENSE-->
+<!---->
+<!---->
+<!--To start open atmDemo.html in a browser.-->
+
 <meta http-equiv='cache-control' content='no-cache'><meta http-equiv='expires' content='0'><meta http-equiv='pragma' content='no-cache'>
     <!DOCTYPE html>
     <html>
         <head>
             <title>ATM Demo</title>
-            <script src="leap-0.6.4.js"></script>
-            <script src="atmDemo.js"></script>
+            <script src="data/leap-0.6.4.js"></script>
+            <script src="data/atmDemo.js"></script>
         </head>
-        <body bgcolor="#8D8D8D" style="margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; height: 100%; overflow: hidden">
-            <div id="header" class="scrollable" style="height:50; width:505; border:0; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; background-color:#34363A; overflow:auto;">
+        <body bgcolor="#F2F2F2" style="margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; height: 100%; overflow: hidden">
+            <div id="header" class="scrollable" style="height:50; width:505; border:0; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; background-color:#4DBD5D; overflow:auto;">
                 <p style="color:white;">ATM</p>
             </div>
-            <div id="UI" class="scrollable" style="height:340; width:505; border:0; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; overflow:auto;text-align:center;">
-                <p style="">Enter pin (any number)</p><form action="" style="">
-                    <textarea id="dial_1" type="text" id="txti" name="fname" style="width:50; height:100; border:0; background-color:#34363A; color:white; font-size: 80px; value:0;">0</textarea>
-                    <textarea id="dial_2" type="text" id="txti" name="fname" style="width:50; height:100; border:0; background-color:#34363A; color:white; font-size: 80px; value:0;">0</textarea>
-                    <textarea id="dial_3" type="text" id="txti" name="fname" style="width:50; height:100; border:0; background-color:#34363A; color:white; font-size: 80px; value:0;">0</textarea>
-                    <textarea id="dial_4" type="text" id="txti" name="fname" style="width:50; height:100; border:0; background-color:#34363A; color:white; font-size: 80px; value:0;">0</textarea>
+            <div id="UI" class="scrollable" style="height:250; width:505; border:0; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; overflow:auto; text-align:center;">
+                <p style="font-size:30">Enter pin (any number)</p><form action="" style="">
+                    <textarea id="dial_1" type="text" name="fname" style="width:50; height:100; border:0; background-color:#34363A; color:white; font-size: 80px; value:0;">0</textarea>
+                    <textarea id="dial_2" type="text" name="fname" style="width:50; height:100; border:0; background-color:#34363A; color:white; font-size: 80px; value:0;">0</textarea>
+                    <textarea id="dial_3" type="text" name="fname" style="width:50; height:100; border:0; background-color:#34363A; color:white; font-size: 80px; value:0;">0</textarea>
+                    <textarea id="dial_4" type="text" name="fname" style="width:50; height:100; border:0; background-color:#34363A; color:white; font-size: 80px; value:0;">0</textarea>
                 </form>
             </div>
-            <div class="scrollable" style="height:80; width:505; border:0; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; background-color:#34363A; overflow:auto;">
-                
-            </div>
+            <div id="guide" class="scrollable" style="height:170; width:505; border:0; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; background-color:#34363A; overflow:auto; text-align:center;">
+                <pre style="color:white;">dial           next          delete       return card</pre>
+                <img src="data/dial.gif" style="height:100; width:100;">
+                    <img src="data/ok.gif" style="height:100; width:100;">
+                        <img src="data/cancel.gif" style="height:100; width:100;">
+                            <img src="data/return_card.gif" style="height:100; width:100;">
+                                </div>
         </body>
     </html>
