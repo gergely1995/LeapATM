@@ -1,3 +1,10 @@
-To start open atmDemo.html in a browser.
+/*!                                                              
+ * LeapATM                                                  
+ * https://github.com/gergely1995/LeapATM/                                        
+ *                                                                             
+ * Copyright 2020 Gergely Szentgyörgyi and other contributors                      
+ * Released under the Apache-2.0 license                                     
+ * https://github.com/gergely1995/LeapATM/blob/master/LICENSE                 
+ */
 
-Option selection could be improved by adding a time tolerance to avoid inaccurate selection due to the user not extending fingers at the same time.
+To start open atmDemo.html in a browser.
