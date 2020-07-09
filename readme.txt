@@ -13,12 +13,17 @@ https://github.com/leapmotion/leapjs/blob/master/leap-1.0.0.js
 Unedited video:
 https://vimeo.com/436617796
 
+Edited Video:
+https://vimeo.com/436697417
+
 To test open atmDemo.html in a browser.
 
 This project is intended for functionality experimentation so the UI is kept simple.
 The idea is to develop a way to interact with touch less interfaces without having to aiming.
 As it can be the most difficult part of using a touch less UI,
 due to the individual's varied ability to keep their hand steady.
+
+This idea could be expanded to be suitable for more complex interfaces by adding more gestures and developing a way to type text.
 
 
 Actions:
