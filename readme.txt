@@ -9,6 +9,10 @@ This project uses:
 https://github.com/leapmotion/leapjs/blob/master/leap-1.0.0.js
 (included in the data folder)
 
+
+Unedited video:
+https://vimeo.com/436617796
+
 To test open atmDemo.html in a browser.
 
 This project is intended for functionality experimentation so the UI is kept simple.
